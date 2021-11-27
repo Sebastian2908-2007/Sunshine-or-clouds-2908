@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>2Sunshine9 Or 0Clouds8</title>
+</head>
+<body>
+    <header class="hero">
+        <h1 class="app-title">Sunshine Or Clouds</h1>
+        <p>Search by city for an accurate forecast</p>
+    </header>
+
+    <main class="container ">
+    <div class="row" id="form-plus-oneday">
+        <div class="col-6">
+         <form id="user-form" >
+              <h2 class="form-title">Search a City</h2>
+             
+             <div class="form-group row">
+                <label class=" col-form-label" for="city"></label>
+                <input name="city" id="city" type="text" autofocus="true" class="form-input" />
+             </div>
+             <div class="form-group row">
+                <button type="submit" class="btn-primary col-4">Get City</button>
+            </div> 
+            </form>
+          </div>
+            <div class="col-6">
+                
+                <div class="row " id="one-day-forecast" >
+                    <h2 class="col">Abilene</h2>
+                    <span class="col-12">temp:</span>
+                    <span class="col-12">wind:</span>
+                    <span class="col-12">humidity:</span>
+                    <span class="col-12">UV-Index:</span>
+                </div>
+            </div>
+        </div>
+        <div class="row" >
+           <div class="col-2 history" >
+               <div class="row" id="search-history">
+               <span class="col-12 city">some city</span>
+               <span class="col-12 city">some city</span>
+               <span class="col-12 city">some city</span>
+               <span class="col-12 city">some city</span>
+               <span class="col-12 city">some city</span>
+               <span class="col-12 city">some city</span>
+               <span class="col-12 city">some city</span>
+               <span class="col-12 city">some city</span>
+            </div>
+           </div>
+           <div class="col-8" id="five-day">
+               <h3 class="col">Five Day Forecast</h3>
+               <div class="row" id="forecast-days">
+                   <div class="col-2 one-day">
+                       <h6>5/17/1998</h6>
+                       <span class="col-12 five-day-span">temp</span>
+                       <span class="col-12 five-day-span">wind</span>
+                       <span class="col-12 five-day-span">humidity</span>
+                   </div>
+                   <div class="col-2 one-day">
+                       <h6>5/17/1998</h6>
+                       <span class="col-12 five-day-span">temp</span>
+                       <span class="col-12 five-day-span ">wind</span>
+                       <span class="col-12 five-day-span">humidity</span>
+                   </div>
+                   <div class="col-2 one-day">
+                       <h6>5/17/1998</h6>
+                       <span class="col-12 five-day-span ">temp</span>
+                       <span class="col-12 five-day-span ">wind</span>
+                       <span class="col-12 five-day-span">humidity</span>
+                   </div>
+                   <div class="col-2 one-day">
+                       <h6>5/17/1998</h6>
+                       <span class="col-12 five-day-span ">temp</span>
+                       <span class="col-12 five-day-span">wind</span>
+                       <span class="col-12 five-day-span">humidity</span>
+                   </div>
+                   <div class="col-2 one-day">
+                       <h6>5/17/1998</h6>
+                       <span class="col-12 five-day-span">temp</span>
+                       <span class="col-12 five-day-span">wind</span>
+                       <span class="col-12 five-day-span">humidity</span>
+                   </div>
+               </div>
+           </div>
+        </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>  
+</body>
+</html>
