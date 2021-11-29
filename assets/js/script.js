@@ -1,5 +1,19 @@
+var searchForm = document.querySelector("#user-form");
+var searchInput = document.querySelector("#city");
+var cityList = [];
 
 
+var searchSubmitHandler = function(event) {
+event.preventDefault()
+var cityName = searchInput.value.trim();
+if(cityName) {
+    getWeather(cityName);
+    cityList.push(cityName);
+    console.log(cityList);
+}else{
+    alert("Please enter a city valid name");
+}
+}; 
 
 var printOneDay = function(weather) {
     var oneDay = document.querySelector("#one-day-forecast"); 
@@ -30,6 +44,7 @@ var getWeather = function(city) {
 
 };
 
+searchForm.addEventListener("submit", searchSubmitHandler);
 
 
-getWeather("billings");
+
