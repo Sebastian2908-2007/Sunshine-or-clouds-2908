@@ -3,11 +3,22 @@ var searchInput = document.querySelector("#city");
 var searchHistory = document.querySelector("#search-history")
 var cityList = [];
 
+var clickSearchHandler = function(event) {
+    var search = event.target.getAttribute("data-city");
+
+    if(search) {
+        getWeather(search);
+    }
+
+};
+
+// makes search history elements
 var printSearchHistory = function(city) {
     
   //console.log(cities[i]);
-  var searchItem = document.createElement("span");
+  var searchItem = document.createElement("button");
   searchItem.classList = "col-12 city"
+  searchItem.setAttribute("data-city", city);
   searchItem.textContent = city;
   searchHistory.appendChild(searchItem);
     
@@ -68,7 +79,7 @@ var getWeather = function(city) {
 });
 
 };
-
+searchHistory.addEventListener("click",clickSearchHandler);
 searchForm.addEventListener("submit", searchSubmitHandler);
 
 
