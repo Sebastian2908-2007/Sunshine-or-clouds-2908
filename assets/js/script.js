@@ -16,8 +16,6 @@ var load = function() {
         printSearchHistory(savedCities[i]);
     }
 }
-
-// functionality for getting weather by clicking the history
 var clickSearchHandler = function(event) {
     var search = event.target.getAttribute("data-city");
 
@@ -66,7 +64,7 @@ if(cityName) {
 // function that prints one day forecast
 var printOneDay = function(weather) {
     var oneDay = document.querySelector("#one-day-forecast"); 
-    oneDay.innerHTML = "<h2 class='col'>" + weather.name + "</h2> <span class='col-12'>temp:"+ " " + weather.main.temp +"</span> <span class='col-12'>wind:" + " " + weather.wind.speed +"</span> <span class='col-12'>humidity:"+ " " + weather.main.humidity +"</span> <span class='col-12'>low temp:"+ " " + weather.main.temp_min +"</span>"
+    oneDay.innerHTML = "<h2 class='col'>" + weather.name +" "+"Today"+ "</h2> <span class='col-12'>temp:"+ " " + weather.main.temp +"</span> <span class='col-12'>wind:" + " " + weather.wind.speed +"</span> <span class='col-12'>humidity:"+ " " + weather.main.humidity +"</span> <span class='col-12'>low temp:"+ " " + weather.main.temp_min +"</span>"
     
 };
 
@@ -74,7 +72,7 @@ var printOneDay = function(weather) {
 var printFiveDays = function(weather) {
     var fiveDays = document.querySelector("#forecast-days");
    fiveDays.innerHTML =
- "<div class='col-2 one-day'><h6>"+ weather.list[0].dt_txt.split(" ")[0] +"</h6><span class='col-12 five-day-span'>Temp:" + " " + weather.list[0].main.temp +"</span><span class='col-12 five-day-span'>Wind:" + " " + weather.list[0].wind.speed +"</span><span class='col-12 five-day-span'>Humidity:" + " " + weather.list[0].main.humidity +"</span></div>" + "<div class='col-2 one-day'><h6>"+ weather.list[5].dt_txt.split(" ")[0] +"</h6><span class='col-12 five-day-span'>Temp:" + " " + weather.list[5].main.temp +"</span><span class='col-12 five-day-span'>Wind:" + " " + weather.list[5].wind.speed +"</span><span class='col-12 five-day-span'>Humidity:" + " " + weather.list[5].main.humidity +"</span></div>" + "<div class='col-2 one-day'><h6>"+ weather.list[10].dt_txt.split(" ")[0] +"</h6><span class='col-12 five-day-span'>Temp:" + " " + weather.list[10].main.temp +"</span><span class='col-12 five-day-span'>Wind:" + " " + weather.list[10].wind.speed +"</span><span class='col-12 five-day-span'>Humidity:" + " " + weather.list[10].main.humidity +"</span></div>" + "<div class='col-2 one-day'><h6>"+ weather.list[17].dt_txt.split(" ")[0] +"</h6><span class='col-12 five-day-span'>Temp:" + " " + weather.list[17].main.temp +"</span><span class='col-12 five-day-span'>Wind:" + " " + weather.list[17].wind.speed +"</span><span class='col-12 five-day-span'>Humidity:" + " " + weather.list[17].main.humidity +"</span></div>" + "<div class='col-2 one-day'><h6>"+ weather.list[25].dt_txt.split(" ")[0] +"</h6><span class='col-12 five-day-span'>Temp:" + " " + weather.list[25].main.temp +"</span><span class='col-12 five-day-span'>Wind:" + " " + weather.list[25].wind.speed +"</span><span class='col-12 five-day-span'>Humidity:" + " " + weather.list[25].main.humidity +"</span></div>"
+ "<div class='col-4 one-day'><h6>"+ weather.list[0].dt_txt.split(" ")[0] +"</h6><span class='col-12 five-day-span'>Temp:" + " " + weather.list[0].main.temp +"</span><span class='col-12 five-day-span'>Wind:" + " " + weather.list[0].wind.speed +"</span><span class='col-12 five-day-span'>Humidity:" + " " + weather.list[0].main.humidity +"</span></div>" + "<div class='col-4 one-day'><h6>"+ weather.list[8].dt_txt.split(" ")[0] +"</h6><span class='col-12 five-day-span'>Temp:" + " " + weather.list[8].main.temp +"</span><span class='col-12 five-day-span'>Wind:" + " " + weather.list[8].wind.speed +"</span><span class='col-12 five-day-span'>Humidity:" + " " + weather.list[8].main.humidity +"</span></div>" + "<div class='col-4 one-day'><h6>"+ weather.list[16].dt_txt.split(" ")[0] +"</h6><span class='col-12 five-day-span'>Temp:" + " " + weather.list[16].main.temp +"</span><span class='col-12 five-day-span'>Wind:" + " " + weather.list[16].wind.speed +"</span><span class='col-12 five-day-span'>Humidity:" + " " + weather.list[16].main.humidity +"</span></div>" + "<div class='col-4 one-day'><h6>"+ weather.list[24].dt_txt.split(" ")[0] +"</h6><span class='col-12 five-day-span'>Temp:" + " " + weather.list[24].main.temp +"</span><span class='col-12 five-day-span'>Wind:" + " " + weather.list[24].wind.speed +"</span><span class='col-12 five-day-span'>Humidity:" + " " + weather.list[24].main.humidity +"</span></div>" + "<div class='col-4 one-day'><h6>"+ weather.list[32].dt_txt.split(" ")[0] +"</h6><span class='col-12 five-day-span'>Temp:" + " " + weather.list[32].main.temp +"</span><span class='col-12 five-day-span'>Wind:" + " " + weather.list[32].wind.speed +"</span><span class='col-12 five-day-span'>Humidity:" + " " + weather.list[32].main.humidity +"</span></div>"
 };
 
 // function that call's api for data
@@ -88,7 +86,7 @@ var getWeather = function(city) {
  });
  fetch(apiUrl2).then(function(response) {
     response.json().then(function(data) {
-     //   console.log(data);
+       console.log(data);
        printFiveDays(data)
     });
 });
