@@ -64,7 +64,7 @@ if(cityName) {
 // function that prints one day forecast
 var printOneDay = function(weather) {
     var oneDay = document.querySelector("#one-day-forecast"); 
-    oneDay.innerHTML = "<h2 class='col'>" + weather.name +" "+"Today"+ "</h2> <span class='col-12'>temp:"+ " " + weather.main.temp +"</span> <span class='col-12'>wind:" + " " + weather.wind.speed +"</span> <span class='col-12'>humidity:"+ " " + weather.main.humidity +"</span> <span class='col-12'>low temp:"+ " " + weather.main.temp_min +"</span>"
+    oneDay.innerHTML = "<h2 class='col'>" + weather.name +" "+"Today"+ "</h2> <span class='col-12 one-day-span'>temp:"+ " " + weather.main.temp +"</span> <span class='col-12  one-day-span'>wind:" + " " + weather.wind.speed +"</span> <span class='col-12 one-day-span'>humidity:"+ " " + weather.main.humidity +"</span> <span class='col-12  one-day-span'>low temp:"+ " " + weather.main.temp_min +"</span>"
     
 };
 
