@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>2Sunshine9 Or 0Clouds8</title>
 </head>
@@ -15,42 +16,43 @@
     </header>
 
     <main class="container-fluid ">
-    <div class="row" id="form-plus-oneday">
-        <div class="col-6">
+    <div class="row form-plus-oneday " id="form-plus-oneday  ">
+        <div class="col-6 d-flex justify-content-center ">
          <form id="user-form" >
               <h2 class="form-title">Search a City</h2>
              
              <div class="form-group row">
                 <label class=" col-form-label" for="city"></label>
-                <input name="city" id="city" type="text" autofocus="true" class="form-input " />
+                <input name="city" id="city" type="text" autofocus="true" class="form-input col-12" />
              </div>
-             <div class="form-group row">
-                <button type="submit" class="btn-primary col-4">Get City</button>
+             <div class="form-group row ">
+                <button type="submit" class="city col-12">Get City</button>
             </div> 
             </form>
           </div>
-            <div class="col-6">
+            <div class="col-6 text-center ">
                 
-                <div class="row" id="one-day-forecast" >
+                <div class="row text-" id="one-day-forecast" >
+                    
                    
                 </div>
             </div>
-        </div> <!--row ended here-->
-        <div class="row col" >
-           <div class="col-2 history" >
+        </div>
+        <div class="row d-flex justify-content-center" >
+           <div class="col-7  history" >
                <div class="row" id="search-history">
-              
+               
             </div>
            </div>
-           <!--changed five day from col 8 to col-12-->
-           <div class="col-12" id="five-day">
-               <h3 class="col text-center">Five Day Forecast</h3>
-               <div class="row text-center" id="forecast-days">
+           <div class="col-8" id="five-day"> 
+               <h3 class=" text-center">Five Day Forecast</h3>
+               <div class="text-center" id="forecast-days">
+                  
                    
                </div>
-           </div>
+          </div> 
         </div>
-    
+        <footer class="d-flex justify-content-center"><img class="footer" src="https://image.spreadshirtmedia.com/image-server/v1/mp/designs/11875440,width=178,height=178/star-of-ishtar-venus-star-2-symbol-of-the-great.png"/></footer>
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script> 
