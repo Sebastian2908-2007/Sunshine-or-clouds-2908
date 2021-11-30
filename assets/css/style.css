@@ -1,12 +1,14 @@
 .hero{
     text-align:  center;
-    background-image: url(https://cdn.the-scientist.com/assets/articleNo/64395/iImg/27151/e9288567-3528-403e-b635-72c0a6511d08-sun.jpg);
+    background-image: url(https://img.apmcdn.org/9d8714db45a8d7cd2dbc2e193a91681651243462/uncropped/1f6898-20141209-sunshine.jpg);
     background-size:cover;
-    background-position:1%;
+    background-position:100%;
     padding: 15px;
     background-color: aqua; 
-    border:3px solid black ;
+    border:3px solid   rgb(87, 36, 207); ;
     margin-bottom: 40px;
+    font-family: "shadows into light", sans-serif;
+    height: 150px;
 }
 
 p {
@@ -28,6 +30,7 @@ h2,h3, h1 {
     font-weight: bold;
     color: black;
     opacity: 75%;
+    font-family: "shadows into light", sans-serif;
 }
 
 h6 {
@@ -50,7 +53,7 @@ h6 {
 }
 .five-day-span {
     padding: 0 11px 5px 0px;
-   
+    
    
 }
 
@@ -62,6 +65,13 @@ h6 {
    opacity: 70%;
    background-color: rgb(87, 36, 207);
    font-weight:680;
+   background-image: linear-gradient(45deg, #2BD2FF 52%, #5724CF 90%);
+   transition: all .5s ease-out;
+   background-size: 1px 100px;
+   background-position: 0 -10px;
+}
+.city:hover{
+    background-position: 1px -50px ;
 }
 
 .history {
@@ -73,6 +83,17 @@ h6 {
     opacity: 40%; 
     border-radius: 5px;
     font-weight: bolder;
+}
+
+ img {
+    
+height: 200px;
+width: 200px;   
+
+}
+
+.footer {
+    margin-top: 30px;
 }
 
 
