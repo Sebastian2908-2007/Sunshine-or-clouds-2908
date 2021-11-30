@@ -1,0 +1,99 @@
+.hero{
+    text-align:  center;
+    background-image: url(https://img.apmcdn.org/9d8714db45a8d7cd2dbc2e193a91681651243462/uncropped/1f6898-20141209-sunshine.jpg);
+    background-size:cover;
+    background-position:100%;
+    padding: 15px;
+    background-color: aqua; 
+    border:3px solid   rgb(87, 36, 207); ;
+    margin-bottom: 40px;
+    font-family: "shadows into light", sans-serif;
+    height: 150px;
+}
+
+p {
+    font-weight: 680;
+    opacity: 90%;
+}
+
+body{
+    /*background-color: rgb(248, 248, 53);*/
+    background-image: url(https://images.unsplash.com/photo-1537210249814-b9a10a161ae4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3Rvcm0lMjBjbG91ZHN8ZW58MHx8MHx8&w=1000&q=80);
+    background-size:cover;
+    background-position: 80%;
+    height: 1400px;
+}
+span{
+    font-weight: 680;
+}
+h2,h3, h1 {
+    font-weight: bold;
+    color: black;
+    opacity: 75%;
+    font-family: "shadows into light", sans-serif;
+}
+
+h6 {
+    font-weight: bolder;
+}
+
+.form-plus-oneday {
+    margin-bottom: 60px;
+}
+
+.one-day-span{
+    font-weight:bolder; 
+    color: black; 
+}
+
+.one-day{
+    margin: 0 0 20px 5px;
+    border:1px solid black ;
+    border-radius: 8px;
+}
+.five-day-span {
+    padding: 0 11px 5px 0px;
+    
+   
+}
+
+.city {
+    margin:5px 0 5px 0;
+   border: 1px solid black;
+   border-radius: 8px;
+   text-align: center;
+   opacity: 70%;
+   background-color: rgb(87, 36, 207);
+   font-weight:680;
+   background-image: linear-gradient(45deg, #2BD2FF 52%, #5724CF 90%);
+   transition: all .5s ease-out;
+   background-size: 1px 100px;
+   background-position: 0 -10px;
+}
+.city:hover{
+    background-position: 1px -50px ;
+}
+
+.history {
+    margin-bottom: 60px;
+}
+
+.form-input {
+    background-color: rgb(87, 36, 207);
+    opacity: 40%; 
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+ img {
+    
+height: 200px;
+width: 200px;   
+
+}
+
+.footer {
+    margin-top: 30px;
+}
+
+
