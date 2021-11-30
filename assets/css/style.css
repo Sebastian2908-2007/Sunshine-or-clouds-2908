@@ -15,24 +15,21 @@ body{
 .one-day{
     margin: 0 0 20px 5px;
     border:1px solid black ;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 .five-day-span {
-    padding: 0 15px 5px 0px;
+    padding: 0 11px 5px 0px;
    
    
 }
 
 .city {
-   margin:5px 0 5px 0;
+    margin:5px 0 5px 0;
    border: 1px solid black;
-   border-radius: 5px;
+   border-radius: 8px;
    text-align: center;
 }
-.history{
-    margin-right: 50px;
-    margin-left: 10px;
-}
+
 
 #form-plus-oneday{
     margin-left: 1px;
