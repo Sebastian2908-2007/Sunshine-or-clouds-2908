@@ -1,17 +1,19 @@
 .hero{
     text-align:  center;
-    margin-bottom: 100px;
+    background-image: url(https://cdn.the-scientist.com/assets/articleNo/64395/iImg/27151/e9288567-3528-403e-b635-72c0a6511d08-sun.jpg);
+    background-size:cover;
+    background-position:1%;
     padding: 15px;
     background-color: aqua; 
 }
 
 main{
-    background-color: rgb(248, 248, 53);
-    border-radius: 15px;
+    /*background-color: rgb(248, 248, 53);*/
+    background-image: url(https://images.unsplash.com/photo-1537210249814-b9a10a161ae4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3Rvcm0lMjBjbG91ZHN8ZW58MHx8MHx8&w=1000&q=80);
+    background-size: cover;
+    background-position: 80%;
 }
-body{
-    background-color: turquoise;
-}
+
 .one-day{
     margin: 0 0 20px 5px;
     border:1px solid black ;
@@ -28,6 +30,7 @@ body{
    border: 1px solid black;
    border-radius: 8px;
    text-align: center;
+   opacity: 50%;
 }
 
 
