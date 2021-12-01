@@ -129,10 +129,7 @@ width: 200px;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .hero{
-        color: blue;
-       
-        }
+    
         .city{
             font-size: 20px;
         }
@@ -164,9 +161,7 @@ width: 200px;
 @media (min-width: 992px) {
    
         
-        .hero{
-            color: rgb(255, 0, 157);
-        }
+       
         .city{
             font-size: 30px;
         }
@@ -196,9 +191,7 @@ width: 200px;
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-    .hero{
-        color: chartreuse;
-    }
+    
     .city{
         font-size: 30px;
     }
