@@ -21,7 +21,7 @@ body{
     background-image: url(https://images.unsplash.com/photo-1537210249814-b9a10a161ae4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3Rvcm0lMjBjbG91ZHN8ZW58MHx8MHx8&w=1000&q=80);
     background-size:cover;
     background-position: 80%;
-    height: 1400px;
+    height: 1600px;
 }
 span{
     font-weight: 680;
@@ -88,12 +88,141 @@ h6 {
  img {
     
 height: 200px;
-width: 200px;   
+width: 200px;  
+
 
 }
 
 .footer {
     margin-top: 30px;
+    
 }
 
+/*smallest phones*/
+@media (max-width: 548px) {
+#five-day {
+    font-size: 0.5rem ;
+}
+
+#five-day h6 {
+    font-size: 0.6rem;
+}
+.form-plus-oneday{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+  
+
+}
+
+/*medium fone five day text*/
+@media (min-width: 548px) {
+#five-day {
+    font-size: 1rem ;
+}
+#five-day h6 {
+    font-size: 1rem;
+}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .hero{
+        color: blue;
+       
+        }
+        .city{
+            font-size: 20px;
+        }
+        .hero h1 {
+            font-size: 50px;
+        }
+        .hero p {
+            font-size: 15px;
+        }
+        .form-title {
+           font-size: 40px  ;
+        }
+        .one-day-title {
+            font-size: 40px  ;  
+        }
+        #five-day {
+            font-size: 20px;
+        }
+        #five-day h6 {
+            font-size: 20px;
+        }
+        .fd-header{
+            font-size: 40px;
+        }
+    }
+ 
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+   
+        
+        .hero{
+            color: rgb(255, 0, 157);
+        }
+        .city{
+            font-size: 30px;
+        }
+        .hero h1 {
+            font-size: 60px;
+        }
+        .hero p {
+            font-size: 25px;
+        }
+        .form-title {
+           font-size: 50px  ;
+        }
+        .one-day-title {
+            font-size: 50px  ;  
+        }
+        #five-day {
+            font-size: 30px;
+        }
+        #five-day h6 {
+            font-size: 30px;
+        }
+        .fd-header{
+            font-size: 50px;
+        }
+    
+  }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .hero{
+        color: chartreuse;
+    }
+    .city{
+        font-size: 30px;
+    }
+    .hero h1 {
+        font-size: 60px;
+    }
+    .hero p {
+        font-size: 25px;
+    }
+    .form-title {
+       font-size: 50px  ;
+    }
+    .one-day-title {
+        font-size: 50px  ;  
+    }
+    #five-day {
+        font-size: 30px;
+    }
+    #five-day h6 {
+        font-size: 30px;
+    }
+    .fd-header{
+        font-size: 50px;
+    }
+
+ }
 
