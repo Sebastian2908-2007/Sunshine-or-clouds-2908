@@ -52,4 +52,4 @@
  [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]
               ## License link
    (https://www.isc.org/licenses/) 
-   ![Screenshot (103)](https://user-images.githubusercontent.com/77297220/146102123-8f03da79-9e20-4a4b-b5a3-dade8fc55dfc.png)
+  ![Screenshot (106)](https://user-images.githubusercontent.com/77297220/146102296-a38f1595-62c5-44aa-9356-00d3e996033c.png) 
