@@ -1,10 +1,10 @@
     ![Screenshot (103)](https://user-images.githubusercontent.com/77297220/146100604-95c060f1-f65c-4dcd-85e6-71c59cbca259.png) 
      
-     #Sunshine or Clouds
+     # Sunshine or Clouds
      
     https://github.com/Sebastian2908-2007/Sunshine or Clouds
     
-    ##Description
+    ## Description
     
     This is an app to search weather by city. You will recieve the one day and five day forecast.
     
@@ -18,27 +18,27 @@
     * [Contact](#contact)
     * [Questions](#questions)
     
-    ##Installation
+    ## Installation
     
     no packages needed It runs by calling open weather API
     
-    ##Usage
+    ## Usage
     
     This App is used by typing in the search bar or by clicking a city name if you have viseted before.
     
-    ##Contributors
+    ## Contributors
     
     Sebastian Bowen
     
-    ##Test 
+    ## Test 
     
     none
     
-    ##Contact
+    ## Contact
     
     sebastiancrespin279@gmail.com
     
-    ##Questions
+    ## Questions
     
     Sebastian2908-2007
     If you Have any Questions email me @
