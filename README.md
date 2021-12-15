@@ -1,47 +1,34 @@
-    ![Screenshot (103)](https://user-images.githubusercontent.com/77297220/146100604-95c060f1-f65c-4dcd-85e6-71c59cbca259.png) 
-     
-     # Sunshine or Clouds
-     
-    https://github.com/Sebastian2908-2007/Sunshine or Clouds
-    
-    ## Description
-    
-    This is an app to search weather by city. You will recieve the one day and five day forecast.
-    
-    ## Table Of Contents
-    
-    *[Description](#description)
-    *[Installation](#installation)
-    * [Usage](#usage)
-    * [Contributors](#contributors)
-    * [Test](#test)
-    * [Contact](#contact)
-    * [Questions](#questions)
-    
-    ## Installation
-    
-    no packages needed It runs by calling open weather API
-    
-    ## Usage
-    
-    This App is used by typing in the search bar or by clicking a city name if you have viseted before.
-    
-    ## Contributors
-    
-    Sebastian Bowen
-    
-    ## Test 
-    
-    none
-    
-    ## Contact
-    
-    sebastiancrespin279@gmail.com
-    
-    ## Questions
-    
-    Sebastian2908-2007
-    If you Have any Questions email me @
-    sebastiancrespin279@gmail.com 
-    
-    
+# Foobar
+
+Foobar is a Python library for dealing with word pluralization.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+```bash
+pip install foobar
+```
+
+## Usage
+
+```python
+import foobar
+
+# returns 'words'
+foobar.pluralize('word')
+
+# returns 'geese'
+foobar.pluralize('goose')
+
+# returns 'phenomenon'
+foobar.singularize('phenomena')
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
