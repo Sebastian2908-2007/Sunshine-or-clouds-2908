@@ -1,34 +1,54 @@
-# Foobar
-
-Foobar is a Python library for dealing with word pluralization.
-
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
-
-## Usage
-
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+   # License
+                 ISC
+      [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]
+                 
+      
+   # Sunshine or Clouds
+    
+    https://github.com/Sebastian2908-2007/Sunshine or Clouds
+    
+   ## Description
+    
+    it's an app for searching weather by city
+    
+   ## Table Of Contents
+    
+    *[Description](#description)
+    *[Installation](#installation)
+    * [Usage](#usage)
+    * [Contributors](#contributors)
+    * [Test](#test)
+    * [Contact](#contact)
+    * [Questions](#questions)
+    
+   ## Installation
+    
+    none
+    
+   ## Usage
+    
+    you search in the search bar by city
+    
+    ## Contributors
+    
+    Sebastian Bowen
+    
+   ## Test 
+    
+    none
+   ## Contact
+    
+    sebastiancrespin279@gmail.com
+    
+   ## Questions
+    
+    Sebastian2908-2007
+    
+    If you Have any Questions email me @
+    sebastiancrespin279@gmail.com
+    
+   ## License
+                    ISC 
+ [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]
+              ## License link
+   (https://www.isc.org/licenses/)   
