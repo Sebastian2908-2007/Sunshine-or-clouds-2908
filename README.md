@@ -3,9 +3,9 @@
    [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]
                  
       
-   # Sunshine or Clouds
+   # Sunshine or Clouds 2908
     
-    https://github.com/Sebastian2908-2007/Sunshine or Clouds
+    https://github.com/Sebastian2908-2007/sunshine-or-clouds-2908
     
    ## Description
     
